@@ -128,7 +128,7 @@
 
         <div id="footer">
             <div class="container">
-                <div class="span2 offset3">
+                <div class="span2 offset2">
                     <h3>Pick Thingzzz!!!</h3>
                 </div>
                 <div class="span2">
