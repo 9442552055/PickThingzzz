@@ -12,7 +12,7 @@
 <html ng-app="MainModule">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>My First Angular JSP Page</title>
+        <title>Pick Thingzzz!!!</title>
 
         <script type="text/javascript">
            
@@ -44,7 +44,7 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a class="brand" href="#">Pick Thingzzz</a>
+                                <a class="brand" href="#">Pick Thingzzz!!!</a>
                                 <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
                                 <div class="nav-collapse collapse" nav-highlight-active>
                                     <ul class="nav">
@@ -64,27 +64,9 @@
                                     <div style="min-width:100px">
 
                                     </div>
-
                                     <ul class="nav pull-right">
-                                        <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>India</b><b class="caret"></b></a>
-                                            <ul class="dropdown-menu">
-                                                <li><a hreff="/be/en">United States</a></li>
-                                                <li><a href="/us/en">India</a></li>
-                                            </ul>
-                                        </li>
+                                        <li><a href="#/Login">Login</a></li>
                                     </ul>
-
-                                    <ul class="nav pull-right">
-                                        <li class="dropdown">
-                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>English</b><b class="caret"></b></a>
-                                            <ul class="dropdown-menu">
-                                                <li><a href="/us/en">English</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-
-
                                 </div>
                                 <!-- /.navbar-inner -->
                             </div>
