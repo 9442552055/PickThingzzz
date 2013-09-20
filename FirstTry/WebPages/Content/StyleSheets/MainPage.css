@@ -106,3 +106,20 @@ ul, ol {
     padding: 0;
 }
 
+.LogOff {
+    clear: both;
+    color: #333333;
+    display: block;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 3px 20px;
+    white-space: nowrap;
+}
+
+.LogOff:hover {
+    color: white;
+    background-color: #0081C2;
+    background-image: linear-gradient(to bottom,#0088CC);
+    background-repeat: repeat-x;
+    text-decoration: none;
+}

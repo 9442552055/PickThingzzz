@@ -17,7 +17,7 @@ var MainModule = angular.module('MainModule',
 .config(['$routeProvider', function ($routeProvider) {
       $routeProvider.when('/Home', { templateUrl: 'Home.jspf' });
       $routeProvider.when('/AboutUs', { templateUrl: 'About.jspf' });
-      $routeProvider.when('/Login', { templateUrl: 'Login.jspf' });
+      $routeProvider.when('/Login', { templateUrl: 'Account/Login' });
       $routeProvider.otherwise({ redirectTo: '/Home' });
   }]);
 

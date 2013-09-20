@@ -26,7 +26,8 @@
         <script src="AngularScripts/Lib/angular-resource.js"></script>
         <script src="AngularScripts/Lib/bootstrap.js"></script>
         <script src="AngularScripts/MainModule.js"></script>
-
+        <script src="AngularScripts/Controllers/UserController.js"></script>
+        <script src="AngularScripts/Directives/loginPartialBinder.js"></script>
     </head>
     <body>
         <div id="wrap">
@@ -64,8 +65,13 @@
                                     <div style="min-width:100px">
 
                                     </div>
-                                    <ul class="nav pull-right">
-                                        <li><a href="#/Login">Login</a></li>
+                                    <script type="text/javascript">
+                                        services.constant('UserName','<%= request.getSession().getAttribute("Login_UserName")%>');
+                                    </script>
+
+<!--                                    <ul html-binder="Account/LoginPartial" id="loginPartial" class="nav pull-right" ng-controller="UserController" >-->
+                                    <ul login-partial-binder="Account/LoginPartial" id="loginPartial" class="nav pull-right">
+
                                     </ul>
                                 </div>
                                 <!-- /.navbar-inner -->
